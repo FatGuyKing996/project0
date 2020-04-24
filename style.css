@@ -1,0 +1,52 @@
+<style>
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
+
+  #myHeader {
+      background-color: lightblue;
+      color: black;
+      padding: 40px;
+      text-align: center;
+      font-size:100px;
+  }
+
+.cities {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size:30px;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+
+.hello {
+    border: 1px solid rgba(198, 83, 140, 0.88);
+}
+
+.1, .2 {
+    border: 1px #f00;
+    background-color: #fdd;
+}
+.2 {
+    border-width: 3px;
+    font-size:30px;
+}
+
+</style>
