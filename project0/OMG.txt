@@ -1,0 +1,9 @@
+        } else if {   //<--Checking the image existed or not
+
+        } else if($imageFileType != "" && $imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg" && $imageFileType != "gif" ) {   //<-- This line is for checking the folder format
+            ?>
+            <script>
+            window.alert('Please upload image file (only accept jpg, png, jpeg, gif). Please do not upload other types of files');
+            window.location.href = 'index.php';
+            </script>
+            <?php
